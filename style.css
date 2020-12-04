@@ -17,7 +17,8 @@ body{
 }  
 #text path:nth-child(1){
     stroke-dasharray: 615;
-    stroke-dashoffset: 615;
+    stroke-dashoffset: 615; 
+    /* Stroke DashOffset was calculated using JS  Check JS File in Console you will get all the stroke dashoffset*/
     animation: animate 2s ease forwards;
 }
 #text path:nth-child(2){
